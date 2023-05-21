@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+
+
+.text-aw {
+  color: antiquewhite;
+}
+.text-blue {
+  color: #36827f;
+}
+.text-dark-blue {
+  background: #212529;
+  background: linear-gradient(to right, #212529 0%, #36827F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+.text-anti-blue {
+  background: #FAEBD7;
+  background: linear-gradient(to right, #FAEBD7 0%, #36827F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.bg-aw {
+  background-color: antiquewhite;
+}
+
+.bg-green {
+  background-color:  #36827F;
+}
+
+.border-aw {
+  border-color: antiquewhite;
+}
+
+.border-dark {
+  border-color: #212529;
+}
+
+.bg-grad-anti {
+  background: rgb(250,235,215);
+  background: linear-gradient(90deg, rgba(250,235,215,1) 52%, rgba(54,130,127,1) 95%);
+}
+.bg-grad-dark {
+  background: rgb(33,37,41);
+  background: linear-gradient(90deg, rgba(33,37,41,1) 52%, rgba(54,130,127,1) 95%);
+}
+
+.nav-link {
+  color:  #36827f;
+}
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+.ho-border-antique:hover {
+  border-color: #FAEBD7;
+  color: #FAEBD7;
+}
+.ho-border-dark:hover {
+  border-color: #212529;
+  color: #212529;
+  background-color: #FAEBD7;
+}
+
+.ho-antique:hover {
+  background-color: #FAEBD7;
+  color: #212529; 
+}
